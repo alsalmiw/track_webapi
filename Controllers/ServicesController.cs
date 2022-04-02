@@ -11,28 +11,7 @@ namespace track_webapi.Controllers
     [Route("[controller]")]
     public class ServicesController : ControllerBase
     {
-        [HttpGet("GetAllServices")]
-        public List<ServicesModel> GetAllServices ()
-        {
-            return AllServices;
-        }
-
-          [HttpGet("GetServiceByName/{name}")]
-        public List<ServicesModel> GetAllServices (string? name)
-        {
-            List<ServicesModel>SearchedServices = new List<ServicesModel>();
-            for (int i=0; i<AllServices.Count; i++)
-            {
-                if(AllServices[i].ServiceName.Contains(name))
-                {
-                    SearchedServices.Add(AllServices[i]); //
-                }
-            }
-            return SearchedServices;
-        }
-
-
-        public List<ServicesModel>AllServices = new List<ServicesModel>()
+     public List<ServicesModel>AllServices = new List<ServicesModel>()
         {
             new ServicesModel()
             {
@@ -154,5 +133,28 @@ namespace track_webapi.Controllers
             Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed ligula mauris. Vestibulum efficitur nibh condimentum porttitor rutrum. Nullam semper nunc sed congue facilisis. Vestibulum dignissim pellentesque velit, eget facilisis nulla blandit non. Phasellus ac ultrices libero, ut semper ipsum. Quisque placerat augue sed sem tempus varius. Morbi malesuada tortor metus, at ultrices ante pellentesque vel. Maecenas in ex tincidunt, tincidunt eros et, aliquam tellus. Vivamus sit amet egestas justo, eu luctus nisi. Nunc consequat velit id enim gravida molestie. Vivamus ut bibendum leo. Morbi vel mauris a urna luctus tempor vel pulvinar dolor. Maecenas in consectetur neque"  
             },
         };
+    
+        [HttpGet("GetAllServices")]
+        public List<ServicesModel> GetAllServices ()
+        {
+            return AllServices;
+        }
+
+          [HttpGet("GetServiceByName/{name}")]
+        public List<ServicesModel> GetAllServices (string? name)
+        {
+            List<ServicesModel>SearchedServices = new List<ServicesModel>();
+            for (int i=0; i<AllServices.Count; i++)
+            {
+                if(AllServices[i].ServiceName.Contains(name))
+                {
+                    SearchedServices.Add(AllServices[i]); //
+                }
+            }
+            return SearchedServices;
+        }
+
+
+       
     }
 }

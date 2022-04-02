@@ -2,6 +2,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+// var ConnectionString = builder.Configuration.GetConnectionString("TrackString");
+// builder.Services.AddDbContext<DataContext>(Options => Options.UseSqlServer(ConnectionString));
+
 builder.Services.AddCors(options => {
 options.AddPolicy("TrackPolicy",
 builder => {builder.WithOrigins("http://localhost:3000", "http://localhost:3001")
@@ -25,7 +28,7 @@ if (app.Environment.IsDevelopment())
 }
 app.UseCors("TrackPolicy");
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 
 app.UseAuthorization(); 
 
