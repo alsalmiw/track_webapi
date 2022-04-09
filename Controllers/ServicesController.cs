@@ -130,7 +130,7 @@ namespace track_webapi.Controllers
             Id=17,
             ServiceName="United States Postal Service", 
             Icon = "faEnvelopesBulk",
-            Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed ligula mauris. Vestibulum efficitur nibh condimentum porttitor rutrum. Nullam semper nunc sed congue facilisis. Vestibulum dignissim pellentesque velit, eget facilisis nulla blandit non. Phasellus ac ultrices libero, ut semper ipsum. Quisque placerat augue sed sem tempus varius. Morbi malesuada tortor metus, at ultrices ante pellentesque vel. Maecenas in ex tincidunt, tincidunt eros et, aliquam tellus. Vivamus sit amet egestas justo, eu luctus nisi. Nunc consequat velit id enim gravida molestie. Vivamus ut bibendum leo. Morbi vel mauris a urna luctus tempor vel pulvinar dolor. Maecenas in consectetur neque"  
+            Description="<p>Provides<p>'<ul><li>PO Boxes</li><li>Passport Services</li><li>Stamps</li><li>Mailing services</li><li>Mail Delivery – You must start delivery with the post office when you establish a new residence</li></ul>}"
             },
         };
     
