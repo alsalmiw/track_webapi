@@ -32,7 +32,7 @@ namespace track_webapi.Controllers
             Id=3,
             ServiceName="Child Care Services", 
             Icon = "faBabyCarriage",
-            Description="<p>he Resource Connection offers Head Start Preschool and Early Head Start infant and toddler programs. These programs offer wonderful opportunities for children and families, recognizing that parents are their children’s first and most important teachers.</p><h5>County Office of Education</h5><p>Child Development Program</p><p>The Child Development program includes both the extended day Programs. Visit your County office of Education for child care.</p>" 
+            Description="<p>The Resource Connection offers Head Start Preschool and Early Head Start infant and toddler programs. These programs offer wonderful opportunities for children and families, recognizing that parents are their children’s first and most important teachers.</p><h5>County Office of Education</h5><p>Child Development Program</p><p>The Child Development program includes both the extended day Programs. Visit your County office of Education for child care.</p>" 
             },
             new ServicesModel()
             {
@@ -74,63 +74,63 @@ namespace track_webapi.Controllers
             Id=9,
             ServiceName="Healthcare", 
             Icon = "faBriefcaseMedical",
-            Description=""  
+            Description="<p>Hospital Services include 24 hour emergency services: Impatient/Outpatient surgery; Intensive Care Unit; Medical and Surgical Units; General X-ray, Ultrasound, Mammography, CT Scan, MRI and Nuclear Medicine; Respiratory Therapy Services; Cancer/Infusion Center; Orthopedic Center, Gastroenterology Center, Physical Therapy Services; Impatient Skilled Rehabilitation; Full Service Clinical Lab; Cardiac and Pulmonary Rehabilitations and Health education.</p><p>Urgent Cares and Medical Doctors also provide many services for your healthcare needs</p>"  
             },
             new ServicesModel()
             {
             Id=10,
             ServiceName="Insurance Services", 
             Icon = "faFileSignature",
-            Description=""  
+            Description="<p>Provide: </p><ul><li>Home</li><li>Auto</li><li>Health</li><li>Commercial</li></ul>"  
             },
             new ServicesModel()
             {
             Id=11,
             ServiceName="Law Enforcement Services", 
             Icon = "faBuildingShield",
-            Description=""  
+            Description="<p>Sheriff Department; Sheriff’s oversee crimes and safety in Counties</p><p>California Highway Patrol (CHP) oversee and assist motorists, investigate traffic collisions and provide security for the Governor, other public officers, employees, constitutional officers and the general public. They provide education awareness programs such as: “Every 15 Minutes”, Impact Teen Drivers, Senior Volunteer Program, and the Start Smart Program.</p><p>Police Department; oversee crime in urban and suburban areas.</p>"  
             },
             new ServicesModel()
             {
             Id=12,
             ServiceName="Military", 
             Icon = "faPersonMilitaryPointing",
-            Description=""  
+            Description="<ul><li>United States Marine Corp <a href='https://www.marines.com/' target='_blank'>https://www.marines.com/</a></li><li>US Navy<a href='https://www.navy.mil/' target='_blank'>https://www.navy.mil/</a> </li><li>US Army<a href='https://www.army.mil/' target='_blank'>https://www.army.mil/</a> </li><li>US Airforce <a href='https://www.airforce.com/' target='_blank'>https://www.airforce.com/</a></li></ul>"  
             },
             new ServicesModel()
             {
             Id=13,
             ServiceName="Real Estate Services", 
             Icon = "faSignHanging",
-            Description=""  
+            Description="<p>Provide assistance in buying or selling residential, commercial buildings or land.</p>"  
             },
              new ServicesModel()
             {
             Id=14,
             ServiceName="Social Security Services", 
             Icon = "faPassport",
-            Description=""  
+            Description="<p>Social Security Number and Cards are used to help keep accurate records of your wages or self-employment earnings. In order to get benefits you must have a card. Do not carry your card with you. Keep it in a safe place with your other important papers.</p>"  
             },
              new ServicesModel()
             {
             Id=15,
             ServiceName="Taxes", 
             Icon = "faWallet",
-            Description=""  
+            Description="<h5>How to File Your Taxes in 4 Simple Steps</h5><ol><li>Step 1: Gather your Tax Documents. Your tax documents consist of a W-2 from all your employers and a proof of health care insurance from your provider. Your employers have until January 31st to get your W-2’s to you.</li><li>Step 2: Choose Between the Standard Deduction or Itemizing. Standard deduction is when you use your W-2 to fill out a simple form. The W-2 has boxes with dollar amounts. The Form will tell you which box to look at to fill out the form. An itemized Deduction is when you have things like; mileage or a new computer that you purchased and only use specifically for work.</li><li>Step 3: Pick a Filing Status. A Filing Status is one of the following: Single, Married or Joint</li><li>Step 4: File Your Taxes. Once your forms are filled out then you submit them to the IRS and to the State</li></ol>"  
             },
              new ServicesModel()
             {
             Id=16,
             ServiceName="Utility Services", 
             Icon = "faLightbulb",
-            Description=""  
+            Description="<p><strong>Garbage</strong>: Your local Waste Recovery Company will assist you in your garbage pickup. Please check for your local company to start services.</p><p><strong>Phone Company</strong>: Provides residential telephone services, California lifeline telephone program, business telephone service, long distance, calling features, deaf and disabled services, and deaf and disabled telecommunications program.</p><p><strong>Internet Company</strong>: Provide high speed internet with unlimited data and VoIP. Check your local area to find the Internet Company near you.</p><p><strong>Electric and Gas Company</strong>: Some of the big companies are PG&E, SMUD or EDISON. These companies provide electricity and Gas. You must register your residence with them in order to receive services.</p><p><strong>Water</strong>: Your local water company will help you get set up with an account to receive water at your residence.</p>"  
             },
              new ServicesModel()
             {
             Id=17,
             ServiceName="United States Postal Service", 
             Icon = "faEnvelopesBulk",
-            Description="<p>Provides<p>'<ul><li>PO Boxes</li><li>Passport Services</li><li>Stamps</li><li>Mailing services</li><li>Mail Delivery – You must start delivery with the post office when you establish a new residence</li></ul>}"
+            Description="<p>Provides<p><ul><li>PO Boxes</li><li>Passport Services</li><li>Stamps</li><li>Mailing services</li><li>Mail Delivery – You must start delivery with the post office when you establish a new residence</li></ul>"
             },
         };
     
