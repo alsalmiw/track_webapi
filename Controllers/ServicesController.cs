@@ -18,7 +18,7 @@ namespace track_webapi.Controllers
             Id=1,
             ServiceName="Attorney / Legal Services", 
             Icon = "faGavel",
-            Description="<h5>Legal Services</h5><p>Many services will provide free consultations. Attorneys can answer questions to help you make an appropriate decisions regarding your legal issues such as:</p><ul><li>Estate Planning- including Advanced Health Care Directives <a href='https://oag.ca.gov/sites' target='_blank'>http://oag.ca.govhttps://oag.ca.gov/sites</a>  (Living Wills), Durable Powers of Attorney, Wills, Trusts, Conservatorships, and Elder Abuse</li><li>Criminal Defense – including citations, arrests or court proceedings</li><li>Driving under the Influence cases</li></ul>" 
+            Description="<h5>Legal Services</h5><p>Many services will provide free consultations. Attorneys can answer questions to help you make an appropriate decisions regarding your legal issues such as:</p><ul><li>Estate Planning- including Advanced Health Care Directives <a href='https://oag.ca.gov/consumers/general/estate-finance' target='_blank'>https://oag.ca.gov/consumers/general/estate-finance</a>  (Living Wills), Durable Powers of Attorney, Wills, Trusts, Conservatorships, and Elder Abuse</li><li>Criminal Defense – including citations, arrests or court proceedings</li><li>Driving under the Influence cases</li></ul>" 
             },
             new ServicesModel()
             {
