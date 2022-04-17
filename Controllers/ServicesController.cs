@@ -95,7 +95,7 @@ namespace track_webapi.Controllers
             Id=12,
             ServiceName="Military", 
             Icon = "faPersonMilitaryPointing",
-            Description="<ul><li>United States Marine Corp <a href='https://www.marines.com/' target='_blank'>https://www.marines.com/</a></li><li>US Navy<a href='https://www.navy.mil/' target='_blank'>https://www.navy.mil/</a> </li><li>US Army<a href='https://www.army.mil/' target='_blank'>https://www.army.mil/</a> </li><li>US Airforce <a href='https://www.airforce.com/' target='_blank'>https://www.airforce.com/</a></li></ul>"  
+            Description="<ul><li>United States Marine Corp <a href='https://www.marines.com/' target='_blank'>https://www.marines.com/</a></li><li>US Navy <a href='https://www.navy.mil/' target='_blank'>https://www.navy.mil/</a> </li><li>US Army <a href='https://www.army.mil/' target='_blank'>https://www.army.mil/</a> </li><li>US Airforce <a href='https://www.airforce.com/' target='_blank'>https://www.airforce.com/</a></li></ul>"  
             },
             new ServicesModel()
             {
