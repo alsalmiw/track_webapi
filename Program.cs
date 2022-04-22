@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options => {
 options.AddPolicy("TrackPolicy",
-builder => {builder.WithOrigins("https://otrtcalaveras.com","https://api.otrtcalaveras.com/", "http://localhost:3000", "http://localhost:3001")
+builder => {builder.WithOrigins("https://otrtcalaveras.com", "http://localhost:3000", "http://localhost:3001")
     .AllowAnyHeader()
     .AllowAnyMethod();
 });
