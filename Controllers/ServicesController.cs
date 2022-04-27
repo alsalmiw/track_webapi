@@ -56,7 +56,6 @@ namespace track_webapi.Controllers
             Icon = "faCar",
             Description="<ul><li>California Licenses and ID</li><li>California Vehicle Registration</li><li>California Car Title <a href='https://www.dmv.ca.gov/portal/' target='_blank'>https://www.dmv.ca.gov/portal/</a></li><li>Tickets and Violations<ol><li>Speeding tickets</li><li>DUI Violations</li><li>Ticket Attorneys</li><li>DUI Attorneys</li><li>SR-22 Insurance</li></ol></li></ul>"  
             },
-           
             new ServicesModel()
             {
             Id=7,
