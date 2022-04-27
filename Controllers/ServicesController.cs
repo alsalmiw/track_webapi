@@ -104,7 +104,7 @@ namespace track_webapi.Controllers
             Id=13,
             ServiceName="Media", 
             Icon = "faPhotoFilm",
-            Description="<p>Newspapers, TV, Social Media and Radio are all part of the way we get and share information.</p><p>Local Newspapers:</p><ul><li>Share local news </li><li>List Jobs</li><li>Classified Ads</li><li>DBA (Doing business as) a filing for new businesses.</li></ul>"  
+            Description="<p>Newspapers, TV, Social Media and Radio are all part of the way we get and share information.</p><p>Local Newspapers:</p><ul><li>Share local news </li><li>List Jobs</li><li>Classified Ads</li><li>DBA (Doing business as) a filing for new businesses.</li></ul>"
             },
 
 
